@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra Perfumes por WhatsApp</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5;
+            text-align: center;
+        }
+        .container {
+            max-width: 100%;
+            margin: 50px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #25D366;
+            margin-bottom: 20px;
+        }
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 15px 25px;
+            border-radius: 30px;
+            margin: 20px 0;
+            font-size: 1.2rem;
+ 
+}
+        .info {
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡COMPRA DIRECTAMENTE!</h1>
+        
+        <div class="info">
+            <p>Haz clic en el botón para contactarnos por WhatsApp</p>
+            <p>Te atenderemos personalmente</p>
+        </div>
+        
+        <!-- Botón de WhatsApp con mensaje predefinido -->
+        <a href="https://wa.me/573235689701?text=¡Hola!%20Estoy%20interesado%20en%20los%20perfumes%20que%20vi%20en%20TikTok.%20¿Me%20puedes%20dar%20más%20información?" class="whatsapp-btn">
+            CONTACTAR POR WHATSAPP
+        </a>
+        
+        <p>Horario: Lunes a Viernes 9am - 6pm</p>
+    </div>
+</body>
+</html>
